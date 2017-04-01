@@ -8,3 +8,13 @@
 /Users/dan/Apps/e36/obj/Debug/netcoreapp1.1/web.pdb
 /Users/dan/Apps/e36/bin/Debug/netcoreapp1.1/Microsoft.Azure.Documents.ServiceInterop.dll
 /Users/dan/Apps/e36/bin/Debug/netcoreapp1.1/DocumentDB.Spatial.Sql.dll
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/Microsoft.Azure.Documents.ServiceInterop.dll
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/DocumentDB.Spatial.Sql.dll
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/web.deps.json
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/web.runtimeconfig.json
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/web.runtimeconfig.dev.json
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/web.dll
+/Users/dan/Apps/e36/web/bin/Debug/netcoreapp1.1/web.pdb
+/Users/dan/Apps/e36/web/obj/Debug/netcoreapp1.1/web.AssemblyInfo.cs
+/Users/dan/Apps/e36/web/obj/Debug/netcoreapp1.1/web.dll
+/Users/dan/Apps/e36/web/obj/Debug/netcoreapp1.1/web.pdb

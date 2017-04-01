@@ -23,7 +23,7 @@ namespace web.Controllers
         [HttpGet]
         public IEnumerable<Account> Get()
         {
-            var gdax = DocumentDBRepository<Integration>.GetItemsAsync(d => true).Result.FirstOrDefault();
+            var gdax = DocumentDBRepository<Integration>.GetItemsAsync(d => d.Name == "Gdax").Result.FirstOrDefault();
              var service = new AccountClient(new CBAuthenticationContainer(gdax.ApiKey, gdax.Nonce, gdax.ApiSecret));
              var accounts = service.ListAccounts().Result;
              return accounts.Accounts;

@@ -2580,9 +2580,6 @@
           }
         }
       },
-      "System.Net.Http.Formatting.Extension/5.2.3": {
-        "type": "package"
-      },
       "System.Net.NameResolution/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7344,18 +7341,6 @@
         "system.net.http.nuspec"
       ]
     },
-    "System.Net.Http.Formatting.Extension/5.2.3": {
-      "sha512": "BlYwj3Mbgc2i+NqtBZ+bea3LiN9WuGpE8PCylBvhxV0wBs0XTkXJmDuzkNnUyPhDBqKMBwDK0ZCnwJ8LpQ0aEg==",
-      "type": "package",
-      "path": "system.net.http.formatting.extension/5.2.3",
-      "files": [
-        "lib/System.Net.Http.Extensions.dll",
-        "lib/System.Net.Http.Formatting.dll",
-        "lib/System.Net.Http.Primitives.dll",
-        "system.net.http.formatting.extension.5.2.3.nupkg.sha512",
-        "system.net.http.formatting.extension.nuspec"
-      ]
-    },
     "System.Net.NameResolution/4.3.0": {
       "sha512": "F2iFQ3dMG7pRAgKK/H1NsUYkoU9OqdxqXdY6eb/aMrrVuqtgjvVT/ABLX1mGYtmb2ttSP7LGpmZfSpyIAUBjLw==",
       "type": "package",
@@ -10330,8 +10315,7 @@
       "Microsoft.NETCore.App >= 1.1.1",
       "Newtonsoft.Json >= 10.0.1",
       "RestSharp.NetCore >= 105.2.3",
-      "System.Net.Http >= 4.3.1",
-      "System.Net.Http.Formatting.Extension >= 5.2.3"
+      "System.Net.Http >= 4.3.1"
     ]
   },
   "packageFolders": {
@@ -10340,16 +10324,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dan/Apps/e36/web.csproj",
+      "projectUniqueName": "/Users/dan/Apps/e36/web/web.csproj",
       "projectName": "web",
-      "projectPath": "/Users/dan/Apps/e36/web.csproj",
-      "outputPath": "/Users/dan/Apps/e36/obj/",
+      "projectPath": "/Users/dan/Apps/e36/web/web.csproj",
+      "outputPath": "/Users/dan/Apps/e36/web/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/web.dll": "/Users/dan/Apps/e36/bin/placeholder/netcoreapp1.1/web.dll"
+        "lib/netcoreapp1.1/web.dll": "/Users/dan/Apps/e36/web/bin/placeholder/netcoreapp1.1/web.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
@@ -10399,10 +10383,6 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "10.0.1"
-          },
-          "System.Net.Http.Formatting.Extension": {
-            "target": "Package",
-            "version": "5.2.3"
           },
           "System.Net.Http": {
             "target": "Package",

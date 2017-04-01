@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "769af4581b971249b26f13c20dfc25f9627e8271"
+    "signature": "5e808053653d74324488858f6a8825d93c2dbdb4"
   },
   "compilationOptions": {
     "defines": [
@@ -34,8 +34,7 @@
           "Microsoft.NETCore.App": "1.1.1",
           "Newtonsoft.Json": "10.0.1",
           "RestSharp.NetCore": "105.2.3",
-          "System.Net.Http": "4.3.1",
-          "System.Net.Http.Formatting.Extension": "5.2.3"
+          "System.Net.Http": "4.3.1"
         },
         "runtime": {
           "web.dll": {}
@@ -1378,7 +1377,6 @@
           "ref/netstandard1.3/System.Net.Http.dll": {}
         }
       },
-      "system.net.http.formatting.extension/5.2.3": {},
       "system.net.networkinformation/4.1.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -3829,13 +3827,6 @@
       "sha512": "sha512-UrTyRczM3ZvNk6oetBuwlu67MFKKRva+r7bw4JDVZ6Y2IukyZ24td5ppsieu/4yZlogVAIuZul9GIQ3hoiz0yA==",
       "path": "system.net.http/4.3.1",
       "hashPath": "system.net.http.4.3.1.nupkg.sha512"
-    },
-    "system.net.http.formatting.extension/5.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BlYwj3Mbgc2i+NqtBZ+bea3LiN9WuGpE8PCylBvhxV0wBs0XTkXJmDuzkNnUyPhDBqKMBwDK0ZCnwJ8LpQ0aEg==",
-      "path": "system.net.http.formatting.extension/5.2.3",
-      "hashPath": "system.net.http.formatting.extension.5.2.3.nupkg.sha512"
     },
     "system.net.networkinformation/4.1.0": {
       "type": "package",

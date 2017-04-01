@@ -14,7 +14,7 @@
     {
        
         private static readonly string Endpoint = "https://e36.documents.azure.com:443/";
-        private static readonly string Key = "kWxm6upxCSLn5ZjBXpixeQVazzOetAuasH6taFlvlwefqT1AU2aHJMHxDHSutua7BmZyNPcQY4TvItHLr7A7pQ==";
+        private static readonly string Key = "xnyDOvV73lBNcJ2vap6NDceQ0htR8uC68pax8iT1b4dPqYMNY14c6rT5nhBONWIvu1nG2QH1l2VR6fwqLaRkag==";
         private static readonly string DatabaseId = "e36";
         private static readonly string CollectionId = "integration";
         private static DocumentClient client;
@@ -23,7 +23,8 @@
         {
             try
             {
-                Document document = await client.ReadDocumentAsync(UriFactory.CreateDocumentUri(DatabaseId, CollectionId, id));
+                var uri = UriFactory.CreateDocumentUri(DatabaseId, CollectionId, id);
+                Document document = await client.ReadDocumentAsync(uri);
                 return (T)(dynamic)document;
             }
             catch (DocumentClientException e)

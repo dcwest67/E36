@@ -32,9 +32,12 @@ namespace web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Add framework services.
+
+            DocumentDBRepository<Integration>.Initialize();
+
             services.AddMvc();
 
-            // Add framework services.
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +54,6 @@ namespace web
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
 
-            DocumentDBRepository<Integration>.Initialize();
 
         }
     }
